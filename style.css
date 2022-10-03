@@ -24,7 +24,7 @@ body {
     background-position: bottom right;
     background-size: cover;
 }
-blockquote {
+q {
     width: 50%;
     margin: auto;
     font-size: 160%;
@@ -34,4 +34,11 @@ blockquote {
     padding-left: 30px;
     margin-top: 80px;
     margin-bottom: 80px;
+    font-style: italic;
+}
+.farmer {
+    border-left-color: crimson;
+}
+.villager {
+    border-left-color: chartreuse;
 }
