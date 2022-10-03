@@ -13,3 +13,22 @@ a:hover {
 a:visited {
     color: red;
 }
+body {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(212, 239, 198);
+    background-image: url("https://img.rawpixel.com/private/static/images/website/2022-05/pf-s124-td-7034_2.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=e6ffb00b3c8ed745d72c254a62582d66"), linear-gradient(90deg, rgb(219, 255, 219), rgb(159, 234, 237));
+    background-repeat: no-repeat;
+}
+blockquote {
+    width: 50%;
+    margin: auto;
+    font-size: 160%;
+    background-color: rgb(224, 224, 224);
+    border-left: 3px;
+    border-style: none none none solid;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
