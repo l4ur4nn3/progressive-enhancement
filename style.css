@@ -1,0 +1,15 @@
+* {
+    font-family: 'Courier New', Courier, monospace, serif;
+    word-spacing: 5px;
+    line-height: 150%;
+}
+a {
+    font-weight: bolder;
+    color: orangered;
+}
+a:hover {
+    font-style: italic;
+}
+a:visited {
+    color: red;
+}
