@@ -6,13 +6,14 @@
 }
 a {
     font-weight: bolder;
-    color: orangered;
+    color: chocolate;
 }
 a:hover {
     font-style: italic;
+    text-transform: uppercase;
 }
 a:visited {
-    color: red;
+    color:coral;
 }
 body {
     width: 75%;
@@ -24,21 +25,42 @@ body {
     background-position: bottom right;
     background-size: cover;
 }
-q {
+q, blockquote {
     width: 50%;
     margin: auto;
     font-size: 160%;
     background-color: rgb(224, 224, 224);
     border-left: 3px;
-    border-style: none none none solid;
+    border-style: none none none dashed;
     padding-left: 30px;
     margin-top: 80px;
     margin-bottom: 80px;
     font-style: italic;
 }
 .farmer {
-    border-left-color: crimson;
+    border-left-color: blueviolet;
 }
 .villager {
-    border-left-color: chartreuse;
+    border-left-color:aquamarine;
+}
+header > :first-child {
+    background-color: yellow;
+}
+.good, .bad {
+    text-transform: uppercase;
+}
+.good {
+    color: green;
+}
+.bad {
+    color: red;
+}
+table tr:nth-child(even) {
+    background-color: white;
+}
+table tr:nth-child(odd) {
+    background-color: rgb(198, 198, 198);
+}
+p:first-child {
+    font-weight: bold;
 }
